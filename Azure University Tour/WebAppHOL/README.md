@@ -475,6 +475,8 @@ In this lab, you learned the following steps in creating an AI solution:
 
 As this lab has shown, Azure Cognitive Services enables you to quickly and easily infuse your application with AI using a pre-existing data set. If you were building a fully-productionalized BNB rentals application, you might imagine how your development needs would grow to include real-time user-generated content and more sophisticated models of scoring. Fortunately Azure has enterprise-grade tools like [Azure Data Lake](https://azure.microsoft.com/solutions/data-lake/) and [Azure Machine Learning](https://azure.microsoft.com/overview/machine-learning/) to help. You can learn more about the complete Azure AI platform [here](https://azure.microsoft.com/overview/ai-platform/).
 
+**Note** : If, once your app has been deployed, you find that _Match Percentage_ scores are no longer visible, please check utilization for your _Project Local Insights_ Cognitive Service subscription. You have potentially reached the limit for calls to the REST API, and will need to register a new API key or increase utilization for the subscription.
+
 ---
 
 Copyright 2018 Microsoft Corporation. All rights reserved. Except where otherwise noted, these materials are licensed under the terms of the MIT License. You may use them according to the license as is most appropriate for your project. The terms of this license can be found at <https://opensource.org/licenses/MIT.>
